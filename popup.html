@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Eco-Score</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="leaf">🌿</span>
+      <h2>Eco-Score</h2>
+      <p class="subtitle">AI Sustainability Analyzer</p>
+    </div>
+    <div class="input-section">
+      <label for="api-key">Grok API Key</label>
+      <input type="password" id="api-key" placeholder="Paste your Grok API Key here" />
+    </div>
+    <button id="analyze-btn">🔍 Analyze Eco-Score</button>
+    <div id="status" class="status"></div>
+    <div id="eco-score-value" class="eco-value"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
